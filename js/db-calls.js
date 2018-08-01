@@ -7,7 +7,6 @@ let dbCalls = {};
 let parkInfo = {};
 let attractions = {};
 let attractionTypes = {};
-
 let areaTypes = {};
 
 dbCalls.fetchAreas = () => {
@@ -64,7 +63,7 @@ dbCalls.fetchTypes = () => {
 };
 
 dbCalls.getParkInfo = () => {
-  return parkInfo;  
+  return parkInfo;
 };
 
 

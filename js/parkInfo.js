@@ -1,15 +1,17 @@
 "use strict";
 
 let db = require('./db-calls.js');
+let addpark = require('./parkInfoDOM.js');
 
 
 let parkInfo = {};
 
 db.fetchParkInfo()
-   .then((result) => {
-   parkInfo = result;
-   })
+    .then((result) => {
+        parkInfo = result;
+        addpark(parkInfo);
+        console.log("parkInfo.js", parkInfo);
+    });
 
-// console.log("park info db call", parkInfo);
 
 module.exports = parkInfo;
