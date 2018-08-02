@@ -3,6 +3,7 @@
 let db = require('./db-calls.js');
 let addpark = require('./parkInfoDOM.js');
 
+
 let parkInfo = {};
 
 db.fetchParkInfo()
@@ -11,6 +12,5 @@ db.fetchParkInfo()
         addpark(parkInfo);
         console.log("parkInfo.js", parkInfo);
     });
-
 
 module.exports = parkInfo;
