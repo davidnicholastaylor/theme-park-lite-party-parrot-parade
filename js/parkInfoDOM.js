@@ -8,6 +8,7 @@ let parkDiv = document.querySelector(".parkInfo-div");
 // POST INFORMATION ON DOM THROUGH FOR LOOP
 function addpark(parkInfoFile) {
 
+    
     for (let i = 0; i < parkInfoFile.length; i++) {
         // console.log(AlienArguement)
         parkDiv.innerHTML +=
