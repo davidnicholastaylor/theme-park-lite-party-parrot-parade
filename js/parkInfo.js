@@ -13,4 +13,6 @@ db.fetchParkInfo()
         console.log("parkInfo.js", parkInfo);
     });
 
+    
+
 module.exports = parkInfo;

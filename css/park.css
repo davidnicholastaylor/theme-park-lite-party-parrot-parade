@@ -1,0 +1,17 @@
+body
+    {
+        background-color:lightcoral;
+        /* background-repeat: no-repeat;
+        background-size: contain; */
+    }
+
+    .parkInfo-div{
+        background-color:yellow;
+        color:green;
+    }
+
+    .attractions-div{
+        background-color:aqua;
+        color:blueviolet;
+    }
+
