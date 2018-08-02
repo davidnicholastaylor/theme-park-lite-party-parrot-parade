@@ -1,0 +1,38 @@
+/* the card. it has the text on it */
+.typeDetails {
+
+    background: black;
+    margin: 1em;
+    width: 18em;
+    color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* wrapper for .typeDetails */
+.typeWrapper {
+display: Flex;
+   flex-direction: row;
+   width: 20em;
+}
+
+/* holds all of the .typeDetails created by a for loop */
+.type-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* holds the type title */
+.type-title {
+    justify-content: center;
+    text-align: center;
+}
+
+/* holds type-title and type-div in container */
+.type-container {
+    border: solid;
+    border-color: goldenrod;
+    padding: 2em;
+    border-radius: 20px;
+}
