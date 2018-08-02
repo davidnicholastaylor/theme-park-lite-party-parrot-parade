@@ -6,3 +6,8 @@ let Attractions = require("./attractions.js");
 
 
 
+let areas = require('./areas.js');
+// let parkInfo = require('./parkInfoDom.js');
+
+// parkInfo()
+let AttractionType = require('./attractionType.js');
