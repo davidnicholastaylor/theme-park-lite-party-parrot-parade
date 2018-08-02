@@ -18,3 +18,4 @@ db.fetchAttractions()
 
 module.exports = Attractions;
 
+
