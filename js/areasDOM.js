@@ -11,7 +11,7 @@ function addArea(areaFile, attractionFile) {
         areaDiv.innerHTML +=
             `<div class="type${areaFile[i].id}">
             <h3>${areaFile[i].name}</h3>
-            <p>${areaFile[i].description}</p></div>`;
+            <h5>${areaFile[i].description}</h5></div>`;
     }
 }
 
