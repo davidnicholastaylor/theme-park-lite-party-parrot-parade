@@ -35,7 +35,7 @@ dbCalls.fetchParkInfo = () => {
          return error;
       });
 };
-
+// attractions
 dbCalls.fetchAttractions = () => {
   return fetch(`https://external-data-56670.firebaseio.com/attractions.json`)
     .then(res => res.json())
