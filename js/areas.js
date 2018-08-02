@@ -5,7 +5,7 @@ let addArea = require('./areasDOM.js');
 
 
 let areas = {};
-let areaAttractions = {};
+// let areaAttractions = {};
 
 db.fetchAreas()
     .then((result) => {
@@ -14,10 +14,10 @@ db.fetchAreas()
         console.log("areas.js", areas);
     });
 
-db.fetchAttractions() 
-    .then((result) => {
-        attractions = result;
-        addArea(areaAttractions);
-    });
+// db.fetchAttractions() 
+//     .then((result) => {
+//         areaAttractions = result;
+//         addArea(areaAttractions);
+//     });
 
 module.exports = areas;
