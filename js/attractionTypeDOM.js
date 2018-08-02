@@ -18,7 +18,7 @@ function addType(type) {
 
     for (let i = 0; i < type.length; i++) {
         let typeComponent = type[i].name.charAt(0).toUpperCase() + type[i].name.slice(1);
-        console.log("type thing", type)
+        // console.log("type thing", type)
         typeDiv.innerHTML +=
             `
     <div class="typeWrapper">
