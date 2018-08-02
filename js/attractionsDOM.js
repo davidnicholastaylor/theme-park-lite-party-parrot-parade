@@ -2,6 +2,9 @@
 let AttractionsDiv = document.querySelector(".attractions-div");
 
 
+let heading = document.createElement("h1");
+heading.innerHTML= "Park Attractions";
+AttractionsDiv.appendChild(heading);
 // POST INFORMATION ON DOM THROUGH FOR LOOP
 function addAttractions(attractions) {
 
